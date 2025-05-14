@@ -105,6 +105,3 @@
   // Script simple para actualizar el año del copyright dinámicamente
   document.getElementById('currentYear').textContent = new Date().getFullYear();
 </script>
-<footer class="content-info">
-  {* @php(dynamic_sidebar('sidebar-footer')) *}
-</footer>

@@ -1,5 +1,5 @@
 {{-- resources/views/partials/header.blade.php --}}
- <header class="bg-white py-4 shadow-sm" x-data="{ isMobileMenuOpen: false }">
+ <header class="absolute inset-x-0 top-0 z-50 bg-white py-4 shadow-sm" x-data="{ isMobileMenuOpen: false }">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
     {{-- Logo --}}
     <div class="flex-shrink-0">
